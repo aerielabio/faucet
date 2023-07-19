@@ -10,7 +10,7 @@
     payout: 1,
   };
 
-  $: document.title = `DoKEN ${capitalize(faucetInfo.network)} Faucet`;
+  $: document.title = `AER ${capitalize(faucetInfo.network)} Faucet`;
 
   onMount(async () => {
     const res = await fetch('/api/info');
@@ -60,7 +60,7 @@
               <span class="icon">
                 <i class="fa fa-bath" />
               </span>
-              <span><b>DoKEN Faucet</b></span>
+              <span><b>AER Faucet</b></span>
             </a>
           </div>
           <div id="navbarMenu" class="navbar-menu">
@@ -68,7 +68,7 @@
               <span class="navbar-item">
                 <a
                   class="button is-white is-outlined"
-                  href="https://t.me/dokentoken"
+                  href="https://t.me/aerieofficial"
                 >
                   <span class="icon">
                     <i class="fa fa-telegram" />
@@ -86,7 +86,7 @@
       <div class="container has-text-centered">
         <div class="column is-6 is-offset-3">
           <h1 class="title">
-            Receive {faucetInfo.payout} DoKEN per request
+            Receive {faucetInfo.payout} AER per request
           </h1>
           <h2 class="subtitle">
             Serving from {faucetInfo.account}

@@ -1,0 +1,1 @@
+./eth-faucet -httpport 8080 -wallet.provider https://test-rpc.aerielab.io -wallet.privkey $PWD/pkey
